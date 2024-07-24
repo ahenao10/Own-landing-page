@@ -93,13 +93,16 @@ main {
 }
 
 .profile-img {
-    width: 49vw;
+    position: relative;
+    width: auto;
     border-radius: 0 0 0 80%;
     overflow: hidden;
 }
 
 .profile-img img {
     height: 100%;
+    position: absolute;
+    right: 0;
 }
 
 .repositories {
@@ -236,6 +239,7 @@ footer h2 span:last-child {
     }
 
     .profile-img img {
+        position: static;
         width: 100%;
         height: auto;
         border-radius: 0;
