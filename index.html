@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Henao - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="./asset/fetch.js"></script>
+    <script defer src="./asset/carousel.js"></script>
+    <script defer src="./asset/hyperlinks.js"></script>
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="page-container-div">
+            <div>
+                <div class="nav-info">
+                    <div>
+                        <nav>
+                            <div>
+                                <a href="#about">About</a>
+                                <a href="#projects">Projects</a>
+                                <a href="#contact">Contact</a>
+                            </div>
+                        </nav>
+                    </div>
+                    <main>
+                        <div class="profile-info" id="about">
+                            <h1>
+                                <span>Alejandro Henao</span>
+                                <span>@ahenao10</span>
+                            </h1>
+                            <p>Web developer, systems technician</p>
+                        </div>
+                    </main>
+                </div>
+            </div>
+            <div class="profile-img">
+                <img src="./asset/Profile.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="repositories" id="projects">
+        <h2>Repositories github</h2>
+        <div class="carousel-container">
+            <button class="prev" onclick="slide(-1)">&#10094;</button>
+            <div class="carousel-repos">
+                <!-- renderizar repos -->
+            </div>
+            <button class="next" onclick="slide(1)">&#10095;</button>
+        </div>
+    </div>
+    <div class="footer-div" id="contact">
+        <footer>
+            <h2>
+                <span>Contact</span>
+                <span>Keep in touch.</span>
+            </h2>
+            <div class="network">
+                <a href="https://github.com/ahenao10" target="_blank"><img src="./asset/github.png" alt="GitHub"></a>
+                <a href="https://linkedin.com/in/alejandro-r-henao" target="_blank"><img src="./asset/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
